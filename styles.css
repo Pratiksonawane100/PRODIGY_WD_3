@@ -1,0 +1,29 @@
+.container {
+    text-align: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin: 20px auto;
+    border: 2px solid black;
+    width: 310px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+button {
+    font-size: 1em;
+    padding: 10px 20px;
+    cursor: pointer;
+}
